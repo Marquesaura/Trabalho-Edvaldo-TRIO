@@ -4,10 +4,12 @@ body {
     font-family: "Poppins", Georgia, 'Times New Roman', Times, serif;
     margin-left: 40%;
 }
-.principal h1{
+
+.principal h1 {
     color: black;
 }
-.principal{
+
+.principal {
     background-color: cadetblue;
     border-radius: 15px;
     padding: 20px;
@@ -16,18 +18,29 @@ body {
     margin-bottom: 40px;
     margin-top: 40px;
 }
-select, button{
+
+select,
+button {
     border-radius: 10px;
+}
+#item{
+    width: 300px;
     height: 30px;
 }
-#adicionar{
+option {
+    align-items: center;
+}
+
+#adicionar {
     width: 100px;
     background-color: azure;
 }
-#adicionar:hover{
+
+#adicionar:hover {
     background-color: white;
 }
-.itens{
+
+.itens {
     background-color: gray;
     border-radius: 15px;
     padding: 20px;
@@ -36,12 +49,20 @@ select, button{
     margin-bottom: 40px;
     margin-top: 40px;
 }
-.itens ul{
+
+.itens ul {
     background-color: white;
     border-radius: 10px;
 }
-@media screen and (max-width: 768px) {
+
+/*@media screen and (max-width: 768px) {
     body{
         
     }
+}*/
+button {
+    width: 150px;
+}
+#adicionar-prod{
+    margin-top: 20px;
 }
